@@ -17,9 +17,16 @@ body,input {
 img {
     width: 100%;
 }
+.wrap {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.red {
+    color: red;
+}
 </style>
 </head>
-<body>
+<body class="wrap">
 <div style="display:none"> </div>
     
     <h2>vpn使用说明</h2>
@@ -31,5 +38,6 @@ img {
 	</li>
     </ol>
     <p>服务器端的配置和常见错误请见: <a href="https://github.com/coocon/one-key-ikev2-vpn">github</a></p>
+    <p class="red">注：mac系统升级以后VPN的CA证书可能会失效，导致登录失败。请重新安装或者进行授权来解决此问题。</p>
 </body>
 </html
